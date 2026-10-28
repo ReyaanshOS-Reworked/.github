@@ -11,4 +11,6 @@ ReyaanshOS-Reworked is a Debian-based Linux distribution project inspired by [po
 
 **Status:** Early development.
 
-[Explore our repositories](https://github.com/ReyaanshOS-Reworked)
+### Links
+- [Project Wiki](https://reyaansos-reworked.github.io/)
+- [Explore our repositories](https://github.com/ReyaansOS-Reworked)

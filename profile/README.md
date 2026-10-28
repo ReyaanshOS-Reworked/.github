@@ -1,122 +1,166 @@
  <p align="center">
-  <img src="./logo.png" alt="ReyaanshOS-Reworked logo" width="180">
+  <img src="https://github.com/ReyaanshOS-Reworked.png" alt="ReyaanshOS-Reworked logo" width="180">
 </p>
 
 <h1 align="center">ReyaanshOS-Reworked</h1>
 
 <p align="center">
-  <strong>One Linux vision. Multiple device platforms.</strong>
+  <strong>Linux beyond the desktop.</strong>
 </p>
 
 <p align="center">
-  Debian-based Linux distribution in development
+  An independent, Debian-based, multi-device Linux distribution in development.
 </p>
 
 <p align="center">
   <a href="https://github.com/ReyaanshOS-Reworked">Organization</a>
-  ·
+  &nbsp;·&nbsp;
   <a href="https://github.com/ReyaanshOS-Reworked/ReyaanshOS-Reworked">Main Repository</a>
 </p>
 
 ---
 
-## About the Project
+## About
 
-ReyaanshOS-Reworked is an independent Linux distribution project aiming to bring a consistent Linux experience to a broad range of hardware.
+ReyaanshOS-Reworked is an independent Linux distribution project with a vision of bringing Linux to a wide range of devices.
 
-Built around a Debian-based foundation and inspired by projects such as [postmarketOS](https://postmarketos.org/), the project explores how Linux can extend beyond conventional desktop and laptop computers to smartphones, tablets, and other compatible devices.
+Built around a Debian-based foundation and inspired by projects such as [postmarketOS](https://postmarketos.org/), the project aims to explore Linux across traditional computers, mobile devices, and other compatible hardware.
 
-The long-term goal is to make one project adaptable to different device categories while respecting the hardware requirements and limitations of each platform.
+Rather than limiting the project to one form factor, the long-term objective is to develop a flexible operating system approach that can accommodate different devices while respecting their unique hardware requirements.
 
 ## Our Vision
 
-Linux should not be limited to a single form factor.
+**One project, multiple device platforms, and a common Linux foundation.**
 
-ReyaanshOS-Reworked aims to explore a flexible operating system that can serve traditional computers and mobile hardware through appropriate system configurations, software choices, and device-specific integration.
+We believe Linux has the potential to power more than conventional desktop computers. ReyaanshOS-Reworked aims to explore the possibilities of a multi-device distribution that brings together desktop computing and mobile Linux development.
+
+The project prioritizes adaptability, open development, hardware compatibility, and maintainable system architecture.
 
 ## Target Platforms
 
-| Platform | Direction |
+| Platform | Goal |
 | --- | --- |
-| Desktop PCs | Traditional desktop Linux |
-| Laptops | Portable computing |
-| Smartphones | Mobile Linux exploration |
-| Tablets | Touch-friendly Linux environments |
-| Other hardware | Additional compatible platforms |
+| Desktop PCs | Linux for everyday desktop computing |
+| Laptops | A flexible operating system for portable computers |
+| Smartphones | Explore Linux on compatible mobile hardware |
+| Tablets | Investigate touch-friendly Linux experiences |
+| Other devices | Expand to additional compatible hardware over time |
 
-These are intended targets, not a claim of current compatibility. Actual support will depend on hardware, drivers, firmware, boot methods, and development progress.
+These platforms represent project goals, not currently verified compatibility. Actual support will depend on hardware, drivers, firmware, boot methods, and development progress.
 
 ## Technical Direction
 
-The project intends to investigate:
+### Debian-based foundation
 
-- **Base system:** Debian-based packages and system components.
-- **Hardware support:** Device-specific configurations, kernels, drivers, and firmware requirements.
-- **Desktop environments:** Suitable graphical environments for different screen sizes and input methods.
-- **Mobile support:** Boot, display, networking, audio, power management, and other hardware integration.
-- **Build infrastructure:** Reproducible build processes, configuration management, and testing.
-- **Documentation:** Clear guides for developers, testers, and future users.
+The project intends to use Debian as its base, evaluating its package ecosystem, system components, and available development tools to determine the best approach for the distribution.
 
-Final technical decisions will be documented as the architecture develops.
+### Hardware compatibility
+
+Different devices require different levels of hardware integration. Development may involve device-specific kernels, drivers, firmware, boot configurations, and system settings.
+
+### Desktop and mobile environments
+
+The project will investigate suitable graphical environments and interfaces for different device types, considering screen sizes, touch input, keyboards, pointing devices, and available hardware resources.
+
+### Build and maintenance
+
+A maintainable build system, documented configuration, repeatable testing, and clear separation of device-specific components are important long-term goals.
+
+Final architectural decisions will be documented as development progresses.
+
+## Project Goals
+
+- Establish a reliable Debian-based system foundation.
+- Investigate Linux support across desktop and mobile hardware.
+- Develop a maintainable approach to device-specific configurations.
+- Explore suitable user interfaces for different form factors.
+- Document installation, building, testing, and troubleshooting.
+- Encourage community participation and transparent development.
+- Prioritize verified compatibility and practical usability.
 
 ## Development Roadmap
 
-### Phase 1 — Project Foundation
+### Phase 1 — Foundation
+
 - Establish the repository structure.
 - Document the project's scope and design principles.
-- Evaluate the Debian-based build approach.
-- Define the initial development environment.
+- Evaluate the base-system and image-building approach.
+- Define the development environment.
 
 ### Phase 2 — Base System
-- Develop an initial image-building workflow.
+
+- Develop an initial system build workflow.
 - Establish package and configuration management.
-- Test the base system in a suitable environment.
+- Create a testable base image.
+- Document initial system setup and testing.
 
-### Phase 3 — Desktop Support
-- Evaluate boot and installation workflows.
-- Test desktop hardware compatibility.
-- Document supported configurations.
+### Phase 3 — Computer Support
 
-### Phase 4 — Mobile and Additional Devices
-- Investigate suitable devices and existing Linux ports.
-- Evaluate kernel, driver, firmware, and boot requirements.
-- Develop device-specific support where feasible.
+- Investigate boot and installation methods.
+- Test compatible desktop and laptop hardware.
+- Evaluate drivers, graphics, networking, audio, and power management.
+- Document verified configurations.
+
+### Phase 4 — Mobile and Additional Hardware
+
+- Research suitable devices and existing Linux ports.
+- Investigate boot chains, kernels, drivers, and firmware.
+- Explore display, networking, audio, and power management support.
+- Develop device-specific configurations where feasible.
 
 ### Phase 5 — Testing and Releases
+
 - Establish repeatable testing procedures.
-- Publish documentation and release notes.
-- Announce supported devices only after verification.
+- Document known issues and hardware limitations.
+- Create release and versioning practices.
+- Publish releases only when they are ready for testing or use.
 
-The roadmap is a planning document and does not imply that any phase is complete.
+This roadmap describes intended work. It does not imply that any phase is complete.
 
-## Project Principles
+## Development Status
 
-- Open development and transparent documentation.
-- Practical hardware compatibility over unsupported promises.
-- Reuse of established open-source components where appropriate.
-- Respect for upstream projects and their licenses.
-- Clear separation between planned, experimental, and supported features.
+**Current status: Early planning and development.**
+
+The project's build architecture, device support, system configuration, release process, and licensing strategy remain to be established.
+
+There are no officially announced releases or verified supported-device lists documented here yet.
+
+## Open-Source Philosophy
+
+ReyaanshOS-Reworked aims to develop transparently and build upon established open-source software where appropriate.
+
+The project intends to respect upstream communities, document technical decisions, acknowledge third-party components, and comply with applicable software licenses.
 
 ## Contributing
 
-ReyaanshOS-Reworked is in its early stages. As the project develops, contributions may include documentation, research, testing, development, and hardware compatibility work.
+As the project develops, contributions may include:
 
-Before contributing, check the relevant repository for its current instructions and open issues.
+- System development and build tooling
+- Hardware research and compatibility testing
+- Documentation and installation guides
+- Bug reports and troubleshooting
+- Testing, review, and technical discussion
 
-## Project Status
+Please check the relevant repository for current contribution instructions and open issues before starting work.
 
-**Status: Early planning and development**
+## Repositories
 
-The build architecture, device support, release process, and licensing arrangements remain to be established. There are currently no officially announced releases or verified supported-device list in this README.
+Explore the organization's repositories to follow development, review documentation, and discover available code.
 
-## License
+- [ReyaanshOS-Reworked on GitHub](https://github.com/ReyaanshOS-Reworked)
 
-The project-wide licensing strategy has not yet been finalized. Individual components may be subject to their own licenses and distribution requirements.
+The main operating-system repository and additional development repositories will be linked here as they become available.
+
+## Licensing
+
+The project's overall licensing strategy has not yet been finalized. Individual components may have their own licenses, copyright requirements, and redistribution conditions.
+
+Licensing information will be documented as the codebase and distribution approach take shape.
 
 ---
 
 <p align="center">
   <strong>ReyaanshOS-Reworked</strong>
   <br>
-  <sub>Linux beyond the desktop.</sub>
+  <sub>Building toward Linux across devices.</sub>
 </p>

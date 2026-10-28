@@ -1,0 +1,48 @@
+
+name: Feature Request
+description: Suggest an improvement or new feature.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: What problem would this feature solve?
+      placeholder: Describe the use case.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How should the feature work?
+      placeholder: Describe your idea.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Target Platform
+      options:
+        - Desktop PC
+        - Laptop
+        - Smartphone
+        - Tablet
+        - Multiple platforms
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered other approaches?
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information

@@ -1,0 +1,59 @@
+
+name: Bug Report
+description: Report a bug or unexpected behavior.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please provide accurate details.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What went wrong?
+      placeholder: Describe the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Start the system...
+        2. Open...
+        3. Observe the issue...
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and Hardware
+      description: Include the device model and relevant hardware.
+      placeholder: Device model, CPU, GPU, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: OS Version or Build
+      placeholder: Version, commit, or experimental build
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Error Messages
+      description: Include relevant error messages or logs.
+      render: text
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information
+      description: Anything else that might help.
